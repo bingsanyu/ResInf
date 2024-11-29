@@ -18,13 +18,17 @@ The source code is mainly implemented in Python.
 ### Environment
 
 - **Tested OS:** Linux
-- Python >= 3.8
-- PyTorch >= 1.7.0
+  - Python >= 3.8
+  - PyTorch >= 1.7.0
+
+- **Tested OS:** Windows
+  - Python >= 3.9
+  - PyTorch >= 1.12.1
 
 ### Dependencies
 
-1. Run `pip install -r requirements.txt` to install all dependencies required in your machine.
-2. Import [PyTorch](https://pytorch.org) with the correct CUDA version.
+1. Import [PyTorch](https://pytorch.org) with the correct CUDA version.
+2. Run `pip install -r requirements.txt` to install all dependencies required in your machine.
 
 The installation time will take no longer than 30 minutes on a "normal" desktop computer with good Internet conditions.
 
